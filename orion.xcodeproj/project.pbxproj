@@ -12,13 +12,13 @@
 
 /* Begin PBXFileReference section */
 		F3316EB62D46B31B0074E868 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
-		F3CF61302D458FC80002B482 /* or1on.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = or1on.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3CF61302D458FC80002B482 /* orion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = orion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		F3CF61322D458FC80002B482 /* or1on */ = {
+		F3CF61322D458FC80002B482 /* orion */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = or1on;
+			path = orion;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -46,7 +46,7 @@
 		F3CF61272D458FC80002B482 = {
 			isa = PBXGroup;
 			children = (
-				F3CF61322D458FC80002B482 /* or1on */,
+				F3CF61322D458FC80002B482 /* orion */,
 				F3316EB52D46B31B0074E868 /* Frameworks */,
 				F3CF61312D458FC80002B482 /* Products */,
 			);
@@ -55,7 +55,7 @@
 		F3CF61312D458FC80002B482 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F3CF61302D458FC80002B482 /* or1on.app */,
+				F3CF61302D458FC80002B482 /* orion.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,9 +63,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F3CF612F2D458FC80002B482 /* or1on */ = {
+		F3CF612F2D458FC80002B482 /* orion */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3CF613E2D458FC90002B482 /* Build configuration list for PBXNativeTarget "or1on" */;
+			buildConfigurationList = F3CF613E2D458FC90002B482 /* Build configuration list for PBXNativeTarget "orion" */;
 			buildPhases = (
 				F3CF612C2D458FC80002B482 /* Sources */,
 				F3CF612D2D458FC80002B482 /* Frameworks */,
@@ -76,13 +76,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				F3CF61322D458FC80002B482 /* or1on */,
+				F3CF61322D458FC80002B482 /* orion */,
 			);
-			name = or1on;
+			name = orion;
 			packageProductDependencies = (
 			);
 			productName = or1on;
-			productReference = F3CF61302D458FC80002B482 /* or1on.app */;
+			productReference = F3CF61302D458FC80002B482 /* orion.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F3CF612B2D458FC80002B482 /* Build configuration list for PBXProject "or1on" */;
+			buildConfigurationList = F3CF612B2D458FC80002B482 /* Build configuration list for PBXProject "orion" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F3CF612F2D458FC80002B482 /* or1on */,
+				F3CF612F2D458FC80002B482 /* orion */,
 			);
 		};
 /* End PBXProject section */
@@ -268,7 +268,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"or1on/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"orion/Preview Content\"";
 				DEVELOPMENT_TEAM = X4UP9MVQXR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -283,10 +283,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cxdxn1.or1on;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cxdxn1.orion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "or1on/or1on-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "orion/orion-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,7 +301,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"or1on/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"orion/Preview Content\"";
 				DEVELOPMENT_TEAM = X4UP9MVQXR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -316,10 +316,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cxdxn1.or1on;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cxdxn1.orion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "or1on/or1on-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "orion/orion-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -328,7 +328,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F3CF612B2D458FC80002B482 /* Build configuration list for PBXProject "or1on" */ = {
+		F3CF612B2D458FC80002B482 /* Build configuration list for PBXProject "orion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F3CF613C2D458FC90002B482 /* Debug */,
@@ -337,7 +337,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3CF613E2D458FC90002B482 /* Build configuration list for PBXNativeTarget "or1on" */ = {
+		F3CF613E2D458FC90002B482 /* Build configuration list for PBXNativeTarget "orion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F3CF613F2D458FC90002B482 /* Debug */,
