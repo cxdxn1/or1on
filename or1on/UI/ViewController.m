@@ -56,12 +56,10 @@
 
 - (void)runExploit {
     self.startButton.enabled = NO;
-
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         or1on_init();
         or1on_deinit();
         printf("[*] All done\n");
-
         dispatch_async(dispatch_get_main_queue(), ^{
             [self.startButton setTitle:@"Done" forState:UIControlStateNormal];
             self.startButton.backgroundColor = [UIColor systemGreenColor];

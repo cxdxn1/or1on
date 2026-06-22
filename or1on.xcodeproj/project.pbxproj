@@ -17,7 +17,6 @@
 		81A5E7AE2FE8CF2400D1D1CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A5E79D2FE8CF2400D1D1CE /* main.m */; };
 		81A5E7AF2FE8CF2400D1D1CE /* krw.c in Sources */ = {isa = PBXBuildFile; fileRef = 81A5E7932FE8CF2400D1D1CE /* krw.c */; };
 		81A5E7B02FE8CF2400D1D1CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A5E7A32FE8CF2400D1D1CE /* ViewController.m */; };
-		81A5E7B12FE8CF2400D1D1CE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81A5E7A62FE8CF2400D1D1CE /* Info.plist */; };
 		81A5E7B22FE8CF2400D1D1CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81A5E79C2FE8CF2400D1D1CE /* LaunchScreen.storyboard */; };
 		81A5E7B32FE8CF2400D1D1CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81A5E79F2FE8CF2400D1D1CE /* Main.storyboard */; };
 		81A5E7B42FE8CF2400D1D1CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A5E7A52FE8CF2400D1D1CE /* Assets.xcassets */; };
@@ -192,7 +191,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81A5E7B12FE8CF2400D1D1CE /* Info.plist in Resources */,
 				81A5E7B22FE8CF2400D1D1CE /* LaunchScreen.storyboard in Resources */,
 				81A5E7B32FE8CF2400D1D1CE /* Main.storyboard in Resources */,
 				81A5E7B42FE8CF2400D1D1CE /* Assets.xcassets in Resources */,
