@@ -1,5 +1,5 @@
 # or1on
-IOSurface kernel exploit for iOS 14. Uses felix-pb's physpuppet PUAF vulnerability. 
+IOSurface kernel exploit for iOS 14 on arm64 SoCs. Uses felix-pb's physpuppet PUAF vulnerability. 
 
 iOS 15+ support is possible, but the kernel base finding method will have to be changed.
 
